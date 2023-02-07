@@ -1,9 +1,10 @@
 #include <vector>
 #include <algorithm>
+using namespace std;
 
 class Solution {
 public:
-    bool containsDuplicate(std::vector<int>& nums) {
+    bool containsDuplicate(vector<int>& nums) {
 
         if (nums.empty()) {
             return true;
